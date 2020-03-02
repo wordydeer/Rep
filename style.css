@@ -1,0 +1,36 @@
+body{
+    background: rgb(41, 41, 41);
+    color: whitesmoke;
+}
+
+.grid-container{
+    height: 98vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4fr 4fr;
+    grid-template-areas: 
+    "a a"
+    "b b";
+}
+
+.item{
+    background: rgb(60, 60, 60);
+    border: 3px solid black;
+}
+
+.a{
+    grid-area: a;
+    padding: 15px;
+}
+
+.b{
+    grid-area: b;
+    padding: 15px;
+}
+
+.b2{
+    grid-area: b;
+    padding: 15px;
+    background: rgb(80, 80, 80);
+    color: black;
+}
